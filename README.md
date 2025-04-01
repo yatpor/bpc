@@ -104,7 +104,7 @@ pip install ibpc
 
 ```bash
 cd ~/bpc_ws
-git clone https://github.com/opencv/bpc.git
+git clone https://github.com/opencv/yatpor/bpc.git
 cd bpc
 git checkout baseline_solution
 ```
