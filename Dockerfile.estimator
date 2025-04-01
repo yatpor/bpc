@@ -84,6 +84,7 @@ ENV SERVICE_PACKAGE=${SERVICE_PACKAGE}
 ENV SERVICE_EXECUTABLE_NAME=${SERVICE_EXECUTABLE_NAME}
 ENV MODEL_DIR=/opt/ros/underlay/install/models
 ENV PYTHONPATH=$PYTHONPATH:/opt/ros/underlay/install/bpc_baseline/
+ENV PYTHONPATH=$PYTHONPATH:/opt/ros/underlay/install/bpc_baseline/
 
 CMD exec /opt/ros/overlay/install/lib/${SERVICE_PACKAGE}/${SERVICE_EXECUTABLE_NAME} \
     --ros-args -p model_dir:=${MODEL_DIR}
